@@ -12,4 +12,12 @@ class Movie
     @@all
   end
 
+  def test
+    puts "What is happening."
+  end 
+
+
+  def reviews
+    
+  end 
 end

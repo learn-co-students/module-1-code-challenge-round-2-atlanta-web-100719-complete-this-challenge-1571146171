@@ -16,9 +16,4 @@ class Review
     end 
 
 
-    def viewer 
-        Review.all.select {|r| r.viewer == self}
-        end 
-    end 
-
 end
